@@ -1,0 +1,205 @@
+638169       96 -rw-r--r--    1 maxmelo          staff               49152 Oct 13  2017 .//AutoFillCorrections.db
+638171        0 -rw-r--r--    1 maxmelo          staff                   0 Oct 13  2017 .//AutoFillCorrections.db-wal
+8805286       56 -rw-r--r--    1 maxmelo          staff               26270 Apr  9 17:56 .//Bookmarks.plist
+2763493    24248 -rw-r--r--    1 maxmelo          staff            12414976 Nov 11 21:43 .//CloudAutoFillCorrections.db
+2763495        0 -rw-r--r--    1 maxmelo          staff                   0 Nov 11 21:49 .//CloudAutoFillCorrections.db-wal
+5098733        8 -rw-r--r--    1 maxmelo          staff                1012 Jan 31 00:25 .//CloudHistoryRemoteConfiguration.plist
+1391831      136 -rw-r--r--    1 maxmelo          staff               69632 Aug  6  2017 .//Databases/___IndexedDB/http_www.teamfortress.tv_0/1/IndexedDB.sqlite3
+1391834       64 -rw-r--r--    1 maxmelo          staff               32768 Aug  6  2017 .//Databases/___IndexedDB/http_www.teamfortress.tv_0/1/IndexedDB.sqlite3-shm
+1391833        0 -rw-r--r--    1 maxmelo          staff                   0 Aug  6  2017 .//Databases/___IndexedDB/http_www.teamfortress.tv_0/1/IndexedDB.sqlite3-wal
+1158977      136 -rw-r--r--    1 maxmelo          staff               69632 Aug  6  2017 .//Databases/___IndexedDB/https_www.youtube.com_0/swpushnotificationsdb/IndexedDB.sqlite3
+1158981       64 -rw-r--r--    1 maxmelo          staff               32768 Nov 11 21:44 .//Databases/___IndexedDB/https_www.youtube.com_0/swpushnotificationsdb/IndexedDB.sqlite3-shm
+1158980        0 -rw-r--r--    1 maxmelo          staff                   0 Aug  6  2017 .//Databases/___IndexedDB/https_www.youtube.com_0/swpushnotificationsdb/IndexedDB.sqlite3-wal
+1393792        8 -rw-r--r--    1 maxmelo          staff                4096 Aug  6  2017 .//Databases/Databases.db
+1393795       64 -rw-r--r--    1 maxmelo          staff               32768 Jan 31 00:25 .//Databases/Databases.db-shm
+1393794      168 -rw-r--r--    1 maxmelo          staff               82432 Jan 31 00:25 .//Databases/Databases.db-wal
+1393801        0 -rw-r--r--    1 maxmelo          staff                   0 Jan 31 00:47 .//Databases/safari-extension_net.gorhill.ublock-96g4bakdq9_0/.lock
+1393797    34936 -rw-r--r--    1 maxmelo          staff            17887232 Jan 31 00:47 .//Databases/safari-extension_net.gorhill.ublock-96g4bakdq9_0/e5110569-1708-42f8-a6e8-ae54927e75cd.db
+1393800       64 -rw-r--r--    1 maxmelo          staff               32768 Jan 31 04:50 .//Databases/safari-extension_net.gorhill.ublock-96g4bakdq9_0/e5110569-1708-42f8-a6e8-ae54927e75cd.db-shm
+1393799       64 -rw-r--r--    1 maxmelo          staff               32768 Jan 31 00:47 .//Databases/safari-extension_net.gorhill.ublock-96g4bakdq9_0/e5110569-1708-42f8-a6e8-ae54927e75cd.db-wal
+4675427        8 -rw-r--r--    1 maxmelo          staff                  65 Dec 19 12:45 .//Downloads.plist
+5101946      128 -rw-r--r--    1 maxmelo          staff               64082 Jan 31 00:32 .//Extensions/Extensions.plist
+5101825      344 -rw-------    1 maxmelo          staff              175516 Jan 31 00:32 .//Extensions/HoverSee.safariextz
+1393509     7144 -rw-r--r--    1 maxmelo          staff             3655444 Aug  6  2017 .//Extensions/uBlock.safariextz
+2763171       16 -rw-r--r--    1 maxmelo          staff                5430 Oct 13  2017 .//Favicon Cache/favicons/0751EAA91F83597B076C3384D1C278F2
+4455239        8 -rw-r--r--    1 maxmelo          staff                3638 Nov 20 13:49 .//Favicon Cache/favicons/0BE52AD3E62BB0C1C0B5F99637E1EC2A
+5101249       32 -rw-r--r--    1 maxmelo          staff               14771 Jan 31 00:31 .//Favicon Cache/favicons/101D85CFE40E064AFC936450756F5A51
+2763183        8 -rw-r--r--    1 maxmelo          staff                1150 Oct 13  2017 .//Favicon Cache/favicons/1563CB5BE906C4368D3A562C6B7284A7
+2763174       16 -rw-r--r--    1 maxmelo          staff                5430 Oct 13  2017 .//Favicon Cache/favicons/15F87377BF3BB4B7C1E51C596972A748
+2766472        8 -rw-r--r--    1 maxmelo          staff                1745 Oct 13  2017 .//Favicon Cache/favicons/164A6A2ACB792F21FEC4146C0794CD46
+5103763       16 -rw-r--r--    1 maxmelo          staff                5430 Jan 31 00:45 .//Favicon Cache/favicons/19951CB35BE5F5B02E34F3441F67EE2C
+2763159        8 -rw-r--r--    1 maxmelo          staff                1150 Oct 13  2017 .//Favicon Cache/favicons/239C5138CB7E67960F3161C6797AA4E3
+2763184        8 -rw-r--r--    1 maxmelo          staff                1150 Oct 13  2017 .//Favicon Cache/favicons/24176C4F571B72121D8C52C7A9A0AA12
+2763161        8 -rw-r--r--    1 maxmelo          staff                 361 Oct 13  2017 .//Favicon Cache/favicons/27CEA839DB6036638B0927A167D41730
+2763164       16 -rw-r--r--    1 maxmelo          staff                5430 Oct 13  2017 .//Favicon Cache/favicons/2A3A378C1D74026BA2C9433A666F37C1
+2763163        8 -rw-r--r--    1 maxmelo          staff                2949 Oct 13  2017 .//Favicon Cache/favicons/2CC95A0C2DEFD21508A8C55F75991912
+4292683        8 -rw-r--r--    1 maxmelo          staff                1150 Nov 11 21:44 .//Favicon Cache/favicons/335415950BE8C50D783286606964621C
+4454222        8 -rw-r--r--    1 maxmelo          staff                1406 Nov 20 13:44 .//Favicon Cache/favicons/3950C6D51DE7C31371ED44A1DE63B71C
+5099772        8 -rw-r--r--    1 maxmelo          staff                1150 Jan 31 00:29 .//Favicon Cache/favicons/457EEFF76FE7760B478D5148225E5414
+5104035        8 -rw-r--r--    1 maxmelo          staff                2734 Jan 31 00:48 .//Favicon Cache/favicons/4BC341F2E928ACB3439FF66BC84DCC02
+2763179        8 -rw-r--r--    1 maxmelo          staff                 448 Oct 13  2017 .//Favicon Cache/favicons/4D12FE4DC59D8E0E752342E66F72F86B
+2765090        8 -rw-r--r--    1 maxmelo          staff                1150 Oct 13  2017 .//Favicon Cache/favicons/50294E50980E9EFA6459ACAA96830057
+2763189       16 -rw-r--r--    1 maxmelo          staff                5430 Oct 13  2017 .//Favicon Cache/favicons/55080068418DFFB9D92C94485D0D6561
+5103083       16 -rw-r--r--    1 maxmelo          staff                5430 Jan 31 00:36 .//Favicon Cache/favicons/61E1C440F43FF58DE5548810CBD3173C
+2763170       40 -rw-r--r--    1 maxmelo          staff               16958 Oct 13  2017 .//Favicon Cache/favicons/6DB16B97FF65ACF141DD00E48A0576DF
+2763181       32 -rw-r--r--    1 maxmelo          staff               15086 Oct 13  2017 .//Favicon Cache/favicons/6E54D276CD802987A793416E1D3893D0
+2763160       32 -rw-r--r--    1 maxmelo          staff               13942 Oct 13  2017 .//Favicon Cache/favicons/6E6F0345359B66313E430D03A5BACAC9
+2763187       16 -rw-r--r--    1 maxmelo          staff                5430 Oct 13  2017 .//Favicon Cache/favicons/72A302AD55A454A0235163C988987709
+2763180        8 -rw-r--r--    1 maxmelo          staff                3638 Oct 13  2017 .//Favicon Cache/favicons/7A79C6A00C4AAFBB76F68FB8E9948435
+5101435       24 -rw-r--r--    1 maxmelo          staff               11000 Jan 31 00:31 .//Favicon Cache/favicons/828CA2E96433EAFDB4C5BE322F7AA45E
+5102526        8 -rw-r--r--    1 maxmelo          staff                3314 Jan 31 00:36 .//Favicon Cache/favicons/84939E1384CDDED0A8DAFDB6146FE5F0
+2763162        8 -rw-r--r--    1 maxmelo          staff                3638 Oct 13  2017 .//Favicon Cache/favicons/96B0F08F68CD06733D4F9049E05E1E1B
+5099753        8 -rw-r--r--    1 maxmelo          staff                1150 Jan 31 00:29 .//Favicon Cache/favicons/9B56C1C606F85FF3DC3B11375D64796E
+2763182       40 -rw-r--r--    1 maxmelo          staff               17542 Oct 13  2017 .//Favicon Cache/favicons/B275C248E0370B66D87AE38F23A9D2BB
+5099160        8 -rw-r--r--    1 maxmelo          staff                1150 Jan 31 00:25 .//Favicon Cache/favicons/B5FCE7D3CCF872D0EF0638ABFFBAC4ED
+2763188        8 -rw-r--r--    1 maxmelo          staff                1406 Oct 13  2017 .//Favicon Cache/favicons/B6110261D1F8EFC84036378AF0CE1B1E
+2763173        8 -rw-r--r--    1 maxmelo          staff                1310 Oct 13  2017 .//Favicon Cache/favicons/B76E2706B46DFBAC78CB0E7269C97741
+2764983       40 -rw-r--r--    1 maxmelo          staff               18577 Oct 13  2017 .//Favicon Cache/favicons/BE500971CF7D58E69FB7593859E41C5E
+5099265        8 -rw-r--r--    1 maxmelo          staff                1150 Jan 31 00:26 .//Favicon Cache/favicons/C4105F02C13554469681FAA03B738C10
+5099388       32 -rw-r--r--    1 maxmelo          staff               15086 Jan 31 00:26 .//Favicon Cache/favicons/C4536F8F846F4786FE7621F92221CAEA
+2764409        8 -rw-r--r--    1 maxmelo          staff                1150 Oct 13  2017 .//Favicon Cache/favicons/C5BF3213DE35AD45616AFA098234223A
+5099485       16 -rw-r--r--    1 maxmelo          staff                5430 Jan 31 00:27 .//Favicon Cache/favicons/C9860BF960BE45B972425FC8579B94AC
+5101411       16 -rw-r--r--    1 maxmelo          staff                6518 Jan 31 00:31 .//Favicon Cache/favicons/CC1024931D62ACBB8F68B3C60BD52ED0
+2763169        8 -rw-r--r--    1 maxmelo          staff                 894 Oct 13  2017 .//Favicon Cache/favicons/CED8B798F4C71AFD81A47397B4F3A9AC
+5101906        8 -rw-r--r--    1 maxmelo          staff                 318 Jan 31 00:32 .//Favicon Cache/favicons/D2CDEBD9516DADDB91A47322F2F1DA50
+5101755        8 -rw-r--r--    1 maxmelo          staff                 318 Jan 31 00:32 .//Favicon Cache/favicons/D3AFAB160FFC6026470C0AE545593CC5
+5100399       16 -rw-r--r--    1 maxmelo          staff                5430 Jan 31 00:30 .//Favicon Cache/favicons/E363CDB741386DB7FFB1C8197775890E
+5101525      176 -rw-r--r--    1 maxmelo          staff               87702 Jan 31 00:31 .//Favicon Cache/favicons/E8B18454A01D9020FE968997715A0999
+5100182       24 -rw-r--r--    1 maxmelo          staff                9062 Jan 31 00:30 .//Favicon Cache/favicons/E9435CE713F08074BF3DA5AE28ADFBB9
+5100081       32 -rw-r--r--    1 maxmelo          staff               15086 Jan 31 00:29 .//Favicon Cache/favicons/F79689A2FFC83E8A51FA084AC139D6A0
+2764517        8 -rw-r--r--    1 maxmelo          staff                 824 Oct 13  2017 .//Favicon Cache/favicons/F9E581EB2D7D2FF7362F93F680C1DFF4
+2763172        8 -rw-r--r--    1 maxmelo          staff                 318 Oct 13  2017 .//Favicon Cache/favicons/FD56EB23CC582BC9FC51FC4418B0FB74
+2763186       16 -rw-r--r--    1 maxmelo          staff                5430 Oct 13  2017 .//Favicon Cache/favicons/FDAE49CF614A942B84BB60865D508C60
+5099666       16 -rw-r--r--    1 maxmelo          staff                5430 Jan 31 00:28 .//Favicon Cache/favicons/FDC010356B0CB9067F5B825C81BA9139
+2763144      264 -rw-r--r--    1 maxmelo          staff              135168 Jan 31 00:49 .//Favicon Cache/favicons.db
+2763191        0 -rw-r--r--    1 maxmelo          staff                   0 Oct 13  2017 .//Favicon Cache/favicons.db-lock
+2763193       64 -rw-r--r--    1 maxmelo          staff               32768 Jan 31 04:50 .//Favicon Cache/favicons.db-shm
+2763192        0 -rw-r--r--    1 maxmelo          staff                   0 Jan 31 00:49 .//Favicon Cache/favicons.db-wal
+5103997        8 -rw-r--r--    1 maxmelo          staff                 387 Jan 31 00:47 .//Form Values
+637491     1544 -rw-r--r--    1 maxmelo          staff              790528 Jan 31 00:49 .//History.db
+637492        0 -rw-r--r--    1 maxmelo          staff                   0 Aug  4  2017 .//History.db-lock
+637495       64 -rw-r--r--    1 maxmelo          staff               32768 Apr 11 20:05 .//History.db-shm
+637494        0 -rw-r--r--    1 maxmelo          staff                   0 Jan 31 00:49 .//History.db-wal
+1212969      912 -rw-------    1 maxmelo          staff              466944 Jan 31 00:47 .//HistoryIndex.sk
+4292083        8 -rw-r--r--    1 maxmelo          staff                2287 Nov 11 21:43 .//KnownSitesUsingPlugIns.plist
+5104163      392 -rw-r--r--    1 maxmelo          staff              199487 Jan 31 00:49 .//LastSession.plist
+5099855       24 -rw-r--r--    1 maxmelo          staff               12288 Jan 31 00:49 .//LocalStorage/http_boards.4chan.org_0.localstorage
+5099858       64 -rw-r--r--    1 maxmelo          staff               32768 Jan 31 04:50 .//LocalStorage/http_boards.4chan.org_0.localstorage-shm
+5099857        0 -rw-r--r--    1 maxmelo          staff                   0 Jan 31 00:49 .//LocalStorage/http_boards.4chan.org_0.localstorage-wal
+1213022       40 -rw-r--r--    1 maxmelo          staff               20480 Aug  6  2017 .//LocalStorage/http_www.cbsnews.com_0.localstorage
+1213025       64 -rw-r--r--    1 maxmelo          staff               32768 Aug  6  2017 .//LocalStorage/http_www.cbsnews.com_0.localstorage-shm
+1213024        0 -rw-r--r--    1 maxmelo          staff                   0 Aug  6  2017 .//LocalStorage/http_www.cbsnews.com_0.localstorage-wal
+1260204       24 -rw-r--r--    1 maxmelo          staff               12288 Aug  6  2017 .//LocalStorage/http_www.nydailynews.com_0.localstorage
+1260207       64 -rw-r--r--    1 maxmelo          staff               32768 Aug  6  2017 .//LocalStorage/http_www.nydailynews.com_0.localstorage-shm
+1260206        0 -rw-r--r--    1 maxmelo          staff                   0 Aug  6  2017 .//LocalStorage/http_www.nydailynews.com_0.localstorage-wal
+1391362       24 -rw-r--r--    1 maxmelo          staff               12288 Aug  6  2017 .//LocalStorage/http_www.teamfortress.tv_0.localstorage
+1391365       64 -rw-r--r--    1 maxmelo          staff               32768 Aug  6  2017 .//LocalStorage/http_www.teamfortress.tv_0.localstorage-shm
+1391364        0 -rw-r--r--    1 maxmelo          staff                   0 Aug  6  2017 .//LocalStorage/http_www.teamfortress.tv_0.localstorage-wal
+1395855       24 -rw-r--r--    1 maxmelo          staff               12288 Aug  6  2017 .//LocalStorage/http_www.thesaurus.com_0.localstorage
+1395858       64 -rw-r--r--    1 maxmelo          staff               32768 Aug  6  2017 .//LocalStorage/http_www.thesaurus.com_0.localstorage-shm
+1395857        0 -rw-r--r--    1 maxmelo          staff                   0 Aug  6  2017 .//LocalStorage/http_www.thesaurus.com_0.localstorage-wal
+1158906       24 -rw-r--r--    1 maxmelo          staff               12288 Aug  6  2017 .//LocalStorage/https_accounts.google.com_0.localstorage
+1158909       64 -rw-r--r--    1 maxmelo          staff               32768 Jan 31 00:27 .//LocalStorage/https_accounts.google.com_0.localstorage-shm
+1158908        0 -rw-r--r--    1 maxmelo          staff                   0 Aug  6  2017 .//LocalStorage/https_accounts.google.com_0.localstorage-wal
+5101412       24 -rw-r--r--    1 maxmelo          staff               12288 Jan 31 00:32 .//LocalStorage/https_alternativeto.net_0.localstorage
+5101415       64 -rw-r--r--    1 maxmelo          staff               32768 Jan 31 00:55 .//LocalStorage/https_alternativeto.net_0.localstorage-shm
+5101414        0 -rw-r--r--    1 maxmelo          staff                   0 Jan 31 00:32 .//LocalStorage/https_alternativeto.net_0.localstorage-wal
+1151724     3752 -rw-r--r--    1 maxmelo          staff             1921024 Jan 31 00:48 .//LocalStorage/https_en.wikipedia.org_0.localstorage
+1151727       64 -rw-r--r--    1 maxmelo          staff               32768 Jan 31 01:08 .//LocalStorage/https_en.wikipedia.org_0.localstorage-shm
+1151726        0 -rw-r--r--    1 maxmelo          staff                   0 Jan 31 00:48 .//LocalStorage/https_en.wikipedia.org_0.localstorage-wal
+2765701       24 -rw-r--r--    1 maxmelo          staff               12288 Jan 31 00:35 .//LocalStorage/https_imgur.com_0.localstorage
+2765704       64 -rw-r--r--    1 maxmelo          staff               32768 Jan 31 00:35 .//LocalStorage/https_imgur.com_0.localstorage-shm
+2765703        0 -rw-r--r--    1 maxmelo          staff                   0 Jan 31 00:35 .//LocalStorage/https_imgur.com_0.localstorage-wal
+5100074       24 -rw-r--r--    1 maxmelo          staff               12288 Jan 31 00:30 .//LocalStorage/https_jibrel.network_0.localstorage
+5100077       64 -rw-r--r--    1 maxmelo          staff               32768 Jan 31 04:50 .//LocalStorage/https_jibrel.network_0.localstorage-shm
+5100076        0 -rw-r--r--    1 maxmelo          staff                   0 Jan 31 00:30 .//LocalStorage/https_jibrel.network_0.localstorage-wal
+1401065       24 -rw-r--r--    1 maxmelo          staff               12288 Aug  6  2017 .//LocalStorage/https_superuser.com_0.localstorage
+1401068       64 -rw-r--r--    1 maxmelo          staff               32768 Aug  6  2017 .//LocalStorage/https_superuser.com_0.localstorage-shm
+1401067        0 -rw-r--r--    1 maxmelo          staff                   0 Aug  6  2017 .//LocalStorage/https_superuser.com_0.localstorage-wal
+1180196       24 -rw-r--r--    1 maxmelo          staff               12288 Aug  6  2017 .//LocalStorage/https_support.apple.com_0.localstorage
+1180199       64 -rw-r--r--    1 maxmelo          staff               32768 Aug  6  2017 .//LocalStorage/https_support.apple.com_0.localstorage-shm
+1180198        0 -rw-r--r--    1 maxmelo          staff                   0 Aug  6  2017 .//LocalStorage/https_support.apple.com_0.localstorage-wal
+1148037       24 -rw-r--r--    1 maxmelo          staff               12288 Aug  5  2017 .//LocalStorage/https_www.amazon.com_0.localstorage
+1148041       64 -rw-r--r--    1 maxmelo          staff               32768 Aug  5  2017 .//LocalStorage/https_www.amazon.com_0.localstorage-shm
+1148040        0 -rw-r--r--    1 maxmelo          staff                   0 Aug  5  2017 .//LocalStorage/https_www.amazon.com_0.localstorage-wal
+1262064       24 -rw-r--r--    1 maxmelo          staff               12288 Jan 31 00:49 .//LocalStorage/https_www.facebook.com_0.localstorage
+1262067       64 -rw-r--r--    1 maxmelo          staff               32768 Jan 31 04:50 .//LocalStorage/https_www.facebook.com_0.localstorage-shm
+1262066        0 -rw-r--r--    1 maxmelo          staff                   0 Jan 31 00:49 .//LocalStorage/https_www.facebook.com_0.localstorage-wal
+2764166       24 -rw-r--r--    1 maxmelo          staff               12288 Jan 31 00:47 .//LocalStorage/https_www.google.com_0.localstorage
+2764169       64 -rw-r--r--    1 maxmelo          staff               32768 Jan 31 04:50 .//LocalStorage/https_www.google.com_0.localstorage-shm
+2764168        0 -rw-r--r--    1 maxmelo          staff                   0 Jan 31 00:47 .//LocalStorage/https_www.google.com_0.localstorage-wal
+5100394       24 -rw-r--r--    1 maxmelo          staff               12288 Jan 31 00:30 .//LocalStorage/https_www.macupdate.com_0.localstorage
+5100397       64 -rw-r--r--    1 maxmelo          staff               32768 Jan 31 00:30 .//LocalStorage/https_www.macupdate.com_0.localstorage-shm
+5100396        0 -rw-r--r--    1 maxmelo          staff                   0 Jan 31 00:30 .//LocalStorage/https_www.macupdate.com_0.localstorage-wal
+1488746      376 -rw-r--r--    1 maxmelo          staff              192512 Aug 27  2017 .//LocalStorage/https_www.paypal.com_0.localstorage
+1488749       64 -rw-r--r--    1 maxmelo          staff               32768 Aug 27  2017 .//LocalStorage/https_www.paypal.com_0.localstorage-shm
+1488748        0 -rw-r--r--    1 maxmelo          staff                   0 Aug 27  2017 .//LocalStorage/https_www.paypal.com_0.localstorage-wal
+1403941       24 -rw-r--r--    1 maxmelo          staff               12288 Jan 31 00:31 .//LocalStorage/https_www.reddit.com_0.localstorage
+1403944       64 -rw-r--r--    1 maxmelo          staff               32768 Jan 31 00:48 .//LocalStorage/https_www.reddit.com_0.localstorage-shm
+1403943        0 -rw-r--r--    1 maxmelo          staff                   0 Jan 31 00:31 .//LocalStorage/https_www.reddit.com_0.localstorage-wal
+2764383       32 -rw-r--r--    1 maxmelo          staff               16384 Oct 13  2017 .//LocalStorage/https_www.twitch.tv_0.localstorage
+2764386       64 -rw-r--r--    1 maxmelo          staff               32768 Oct 13  2017 .//LocalStorage/https_www.twitch.tv_0.localstorage-shm
+2764385        0 -rw-r--r--    1 maxmelo          staff                   0 Oct 13  2017 .//LocalStorage/https_www.twitch.tv_0.localstorage-wal
+1146464       24 -rw-r--r--    1 maxmelo          staff               12288 Nov 11 21:44 .//LocalStorage/https_www.youtube.com_0.localstorage
+1146467       64 -rw-r--r--    1 maxmelo          staff               32768 Nov 11 22:02 .//LocalStorage/https_www.youtube.com_0.localstorage-shm
+1146466        0 -rw-r--r--    1 maxmelo          staff                   0 Nov 11 21:44 .//LocalStorage/https_www.youtube.com_0.localstorage-wal
+1146468        8 -rw-r--r--    1 maxmelo          staff                4096 Aug  5  2017 .//LocalStorage/StorageTracker.db
+1146471       64 -rw-r--r--    1 maxmelo          staff               32768 Jan 31 04:50 .//LocalStorage/StorageTracker.db-shm
+1146470     1512 -rw-r--r--    1 maxmelo          staff              770472 Jan 31 00:49 .//LocalStorage/StorageTracker.db-wal
+2763373       48 -rw-r--r--    1 maxmelo          staff               24576 Oct 13  2017 .//PerSitePreferences.db
+2763376       64 -rw-r--r--    1 maxmelo          staff               32768 Jan 31 00:25 .//PerSitePreferences.db-shm
+2763375        0 -rw-r--r--    1 maxmelo          staff                   0 Oct 13  2017 .//PerSitePreferences.db-wal
+5104093     3224 -rw-r--r--    1 maxmelo          staff             1648773 Jan 31 00:48 .//RecentlyClosedTabs.plist
+5104162        8 -rw-r--r--    1 maxmelo          staff                1686 Jan 31 00:49 .//SearchDescriptions.plist
+2763386        8 -rw-r--r--    1 maxmelo          staff                1726 Oct 13  2017 .//SitesAllowedToAutoplay.plist
+5103661        8 -rw-r--r--    1 maxmelo          staff                1021 Jan 31 00:44 .//TopSites.plist
+637964       16 -rw-r--r--    1 maxmelo          staff                5717 Aug  4  2017 .//Touch Icons Cache/Images/0A137B375CC3881A70E186CE2172C8D1.png
+1146463        8 -rw-r--r--    1 maxmelo          staff                1426 Aug  5  2017 .//Touch Icons Cache/Images/12190AFC77A807E8C6BAFC3186575E5C.png
+637963       32 -rw-r--r--    1 maxmelo          staff               13673 Aug  4  2017 .//Touch Icons Cache/Images/1B03577ED104F16AADC00A639D33CB44.png
+1311084       24 -rw-r--r--    1 maxmelo          staff                8347 Aug  6  2017 .//Touch Icons Cache/Images/1DE4DB8DEA4AB3C53BE09C7B8DCA093B.png
+1147161        8 -rw-r--r--    1 maxmelo          staff                 805 Aug  5  2017 .//Touch Icons Cache/Images/2DFB5ED3584057B19518A6FD2C35E1CE.png
+1147159       16 -rw-r--r--    1 maxmelo          staff                7102 Aug  5  2017 .//Touch Icons Cache/Images/3500BCBD3746C243F045EEADAB9EBD5D.png
+1147196       16 -rw-r--r--    1 maxmelo          staff                6149 Aug  5  2017 .//Touch Icons Cache/Images/3597E95B9A1990036AD2EB20C8EF0FE2.png
+1146309       40 -rw-r--r--    1 maxmelo          staff               18782 Aug  5  2017 .//Touch Icons Cache/Images/4123109B70B965B728EED7893DB73230.png
+1311085       16 -rw-r--r--    1 maxmelo          staff                4693 Aug  6  2017 .//Touch Icons Cache/Images/52E64787308C699AEE28F173160C968E.png
+1147165        8 -rw-r--r--    1 maxmelo          staff                3632 Aug  5  2017 .//Touch Icons Cache/Images/57F1EA5A152CB0FEE82B2CCCEB51191E.png
+1147164        8 -rw-r--r--    1 maxmelo          staff                 515 Aug  5  2017 .//Touch Icons Cache/Images/60DAF03F506F8AA568B37D9E92E7C7F1.png
+5103086        8 -rw-r--r--    1 maxmelo          staff                3415 Jan 31 00:36 .//Touch Icons Cache/Images/660328A7F9004D462085AA67A82065DB.png
+2764410        8 -rw-r--r--    1 maxmelo          staff                3004 Oct 13  2017 .//Touch Icons Cache/Images/7106A273BF3BBCE901B765718ECBE69B.png
+1147146        8 -rw-r--r--    1 maxmelo          staff                 911 Aug  5  2017 .//Touch Icons Cache/Images/71EEC6F88AD490A74A33B6299B866D60.png
+637965       16 -rw-r--r--    1 maxmelo          staff                4693 Aug  4  2017 .//Touch Icons Cache/Images/78C4C3399EC15E2AA7A3DF10FDA90BC1.png
+637967       16 -rw-r--r--    1 maxmelo          staff                5131 Aug  4  2017 .//Touch Icons Cache/Images/7905D1C4E12C54933A44D19FCD5F9356.png
+1148042        8 -rw-r--r--    1 maxmelo          staff                2282 Aug  5  2017 .//Touch Icons Cache/Images/7A2AADA7DAAE3EEF8EDFCD6F75328633.png
+1147175        8 -rw-r--r--    1 maxmelo          staff                 660 Aug  5  2017 .//Touch Icons Cache/Images/7A91B2B1BF03E54DC4D312AD8281B20E.png
+637977       16 -rw-r--r--    1 maxmelo          staff                5378 Aug  4  2017 .//Touch Icons Cache/Images/7C20A2B1534F33C9A5F66C656F9DF582.png
+1147141        8 -rw-r--r--    1 maxmelo          staff                2636 Aug  5  2017 .//Touch Icons Cache/Images/85262C2BD5CBEBF0918078B10748A910.png
+637960       24 -rw-r--r--    1 maxmelo          staff               10641 Aug  4  2017 .//Touch Icons Cache/Images/968FCB2E1F3E2C66C36FD5400694FA5F.png
+5099356       32 -rw-r--r--    1 maxmelo          staff               13814 Jan 31 00:26 .//Touch Icons Cache/Images/978917C14592506913B630DC6912FC7F.png
+1146473        8 -rw-r--r--    1 maxmelo          staff                 332 Aug  5  2017 .//Touch Icons Cache/Images/98BEF89DE5C204106DC0D2B77161B9E5.png
+1147173       16 -rw-r--r--    1 maxmelo          staff                4917 Aug  5  2017 .//Touch Icons Cache/Images/A16948E13B7065BC82BC0894617E9C5B.png
+1148036        8 -rw-r--r--    1 maxmelo          staff                1014 Aug  5  2017 .//Touch Icons Cache/Images/A18EEFF94AB79214939C0EF214381CA2.png
+1147160        8 -rw-r--r--    1 maxmelo          staff                3415 Aug  5  2017 .//Touch Icons Cache/Images/A874A3E54D2D5599880B6BB03C50708D.png
+1146355       16 -rw-r--r--    1 maxmelo          staff                6487 Aug  5  2017 .//Touch Icons Cache/Images/AB3201C6103205C14F6E56B11B2FCD46.png
+1147148       16 -rw-r--r--    1 maxmelo          staff                4713 Aug  5  2017 .//Touch Icons Cache/Images/B1603EA974368CBB7261C9117EBB656D.png
+1325069       16 -rw-r--r--    1 maxmelo          staff                5798 Aug  6  2017 .//Touch Icons Cache/Images/B7AE51E8E9FA7961566CE81F3ABE685F.png
+1147882       16 -rw-r--r--    1 maxmelo          staff                6355 Aug  5  2017 .//Touch Icons Cache/Images/BC362D6B8105953C81E9ED06CCEDB1B2.png
+1147967        8 -rw-r--r--    1 maxmelo          staff                1426 Aug  5  2017 .//Touch Icons Cache/Images/BE5CAB0695415D9363D18AD1345C73EB.png
+637980        8 -rw-r--r--    1 maxmelo          staff                2834 Aug  4  2017 .//Touch Icons Cache/Images/BFDEF2879A3E4C99A8B5E1B3F955B2A6.png
+1311109        8 -rw-r--r--    1 maxmelo          staff                1251 Aug  6  2017 .//Touch Icons Cache/Images/CC3217BB2BC137B9CC0BDA23C7D8B6CF.png
+1146334       64 -rw-r--r--    1 maxmelo          staff               30582 Aug  5  2017 .//Touch Icons Cache/Images/CEAE1BD4E88C215339F6FFA58BA380FD.png
+5102308       16 -rw-r--r--    1 maxmelo          staff                4693 Jan 31 00:35 .//Touch Icons Cache/Images/D1063AF181FE606E55ED93DD5B867169.png
+1147163        8 -rw-r--r--    1 maxmelo          staff                1752 Aug  5  2017 .//Touch Icons Cache/Images/D6EE1AF12CB1CCB2C10CED55159615CD.png
+637968        8 -rw-r--r--    1 maxmelo          staff                1228 Aug  4  2017 .//Touch Icons Cache/Images/D755C41AF03DF316AFF5F74BCD008648.png
+5099396       16 -rw-r--r--    1 maxmelo          staff                8175 Jan 31 00:26 .//Touch Icons Cache/Images/DEA74F5048B9B8857D44CC35291730C9.png
+1147893       24 -rw-r--r--    1 maxmelo          staff                8575 Aug  5  2017 .//Touch Icons Cache/Images/DECAA84F38A774BBD5CEC9BD3261356B.png
+1311110       24 -rw-r--r--    1 maxmelo          staff               11505 Aug  6  2017 .//Touch Icons Cache/Images/DED6545BABEEF3EB9B34934C83B5E544.png
+5100497       32 -rw-r--r--    1 maxmelo          staff               13390 Jan 31 00:30 .//Touch Icons Cache/Images/E3C04A783DAE53FAE0422E3A955BC02A.png
+637961        8 -rw-r--r--    1 maxmelo          staff                4032 Aug  4  2017 .//Touch Icons Cache/Images/E845CBDC3785B1A67978CBC5A146A168.png
+1146472       40 -rw-r--r--    1 maxmelo          staff               20126 Aug  5  2017 .//Touch Icons Cache/Images/EB5EF3B69E963568A457E13F3D4C7BF0.png
+1147143       16 -rw-r--r--    1 maxmelo          staff                6993 Aug  5  2017 .//Touch Icons Cache/Images/F156D5B5031A7759F68DE035E3285B92.png
+637969       32 -rw-r--r--    1 maxmelo          staff               13513 Aug  4  2017 .//Touch Icons Cache/Images/F8C7A48E919B1F1FA481616E7258E2E7.png
+637962        8 -rw-r--r--    1 maxmelo          staff                1112 Aug  4  2017 .//Touch Icons Cache/Images/FD34EDFE67A924377D8A9DFE9A78A38A.png
+637473       32 -rw-r--r--    1 maxmelo          staff               16384 Jan 31 00:49 .//Touch Icons Cache/TouchIconCacheSettings.db
+637476       64 -rw-r--r--    1 maxmelo          staff               32768 Jan 31 01:08 .//Touch Icons Cache/TouchIconCacheSettings.db-shm
+637475        0 -rw-r--r--    1 maxmelo          staff                   0 Jan 31 00:49 .//Touch Icons Cache/TouchIconCacheSettings.db-wal
+1403870        8 -rw-r--r--    1 maxmelo          staff                1515 Aug 31  2017 .//WebFeedSources.plist
