@@ -3,8 +3,6 @@
 .//CloudBookmarksMigrationCoordinator/Logs
 .//Databases
 .//Databases/___IndexedDB
-.//Databases/___IndexedDB/http_www.teamfortress.tv_0
-.//Databases/___IndexedDB/http_www.teamfortress.tv_0/1
 .//Databases/___IndexedDB/https_www.youtube.com_0
 .//Databases/___IndexedDB/https_www.youtube.com_0/swpushnotificationsdb
 .//Databases/safari-extension_net.gorhill.ublock-96g4bakdq9_0
