@@ -284,7 +284,7 @@ void cli_cd(string dir, Tree *dir_current, Tree *dir_root) {
 	}
 
 	Tree *found = find(dir_root, dir); // find the name of the directory
-	if (found == NULL) cout << "error: cannot find directory" << endl; //no file was found
+	if (found == NULL) cout << "error: can't find directory" << endl; //no file was found
 	else if (found->file->is_dir == false) cout << "error: invalid directory" << endl;
 	else *dir_current = *found; //directory is found
 }
@@ -316,8 +316,8 @@ void cli_create(string newfile, Tree* dir_current) {
 void cli_append(string name, string bytes, Tree* dir_root, int block_size, list<Block> *LD) {
 	Tree *found = find(dir_root, name);
 	
-	if (found == NULL) cout << "error: could not find file" << endl;
-	else if (found->file->is_dir) cout << "error: can not perform operation on directory" << endl;
+	if (found == NULL) cout << "error: can't find file" << endl;
+	else if (found->file->is_dir) cout << "error: can't append on directory" << endl;
 	else {
 		found->file->size += atoi(bytes.c_str());
 		allocate(found->file, block_size, LD);
@@ -330,9 +330,9 @@ void cli_remove(string name, string bytes, Tree* dir_root, int block_size, list<
 	Tree *found = find(dir_root, name);
 	
 	if (found == NULL) {
-		cout << "error: could not find file" << endl;
+		cout << "error: can't find file" << endl;
 		return;
-	} else if (found->file->is_dir) cout << "error: can not perform operation on directory" << endl;
+	} else if (found->file->is_dir) cout << "error: can't remove directory" << endl;
 	else { 
 		found->file->size -= atoi(bytes.c_str());
 		if (found->file->size < 0) found->file->size = 0;
@@ -347,7 +347,7 @@ void cli_delete(string name, Tree *dir_root, int block_size, list<Block> *LD) {
 	Tree *found = find(dir_root, name);
 	
 	if (found == NULL) {
-		cout << "error: could not find file" << endl;
+		cout << "error: can't find file" << endl;
 		return;
 	}
 
@@ -357,7 +357,7 @@ void cli_delete(string name, Tree *dir_root, int block_size, list<Block> *LD) {
 		found->file->size = 0;
 		deallocate(found->file, block_size, LD);
 		time(&(parent->file->timestamp));
-	} else if (found->children.size() != 0) cout << "error: non-empty directory cannot be removed" << endl;
+	} else if (found->children.size() != 0) cout << "error: non-empty directory can't be deleted" << endl;
 
 	if ((!found->file->is_dir) || (found->file->is_dir && found->children.size() == 0)) {
 		//delete child reference
@@ -556,71 +556,71 @@ int main(int argc, char **argv) {
 
 		if (cmd.compare("cd") == 0) {
 			if (spl.size() != 2) {
-				cout << "error: wrong number of parameters given" << endl;
+				cout << "error: wrong number of arguments given" << endl;
 				continue;
 			}	
 			cli_cd(spl[1], dir_current, dir_root);
 		} else if (cmd.compare("ls") == 0) {
 			if (spl.size() != 1) {
-				cout << "error: wrong number of parameters given" << endl;
+				cout << "error: wrong number of arguments given" << endl;
 				continue;
 			}	
 			cli_ls(dir_current);
 		} else if (cmd.compare("mkdir") == 0) {
 			if (spl.size() != 2) {
-				cout << "error: wrong number of parameters given" << endl;
+				cout << "error: wrong number of arguments given" << endl;
 				continue;
 			}	
 			cli_mkdir(spl[1], dir_current);
 		} else if (cmd.compare("create") == 0) {
 			if (spl.size() != 2) {
-				cout << "error: wrong number of parameters given" << endl;
+				cout << "error: wrong number of arguments given" << endl;
 				continue;
 			}	
 			cli_create(spl[1], dir_current);
 		} else if (cmd.compare("append") == 0) {
 			if (spl.size() != 3) {
-				cout << "error: wrong number of parameters given" << endl;
+				cout << "error: wrong number of arguments given" << endl;
 				continue;
 			}	
 			cli_append(spl[1], spl[2], dir_root, block_size, &LD);
 		} else if (cmd.compare("remove") == 0) {
 			if (spl.size() != 3) {
-				cout << "error: wrong number of parameters given" << endl;
+				cout << "error: wrong number of arguments given" << endl;
 				continue;
 			}	
 			cli_remove(spl[1], spl[2], dir_root, block_size, &LD);
 		} else if (cmd.compare("delete") == 0) {
 			if (spl.size() != 2) {
-				cout << "error: wrong number of parameters given" << endl;
+				cout << "error: wrong number of arguments given" << endl;
 				continue;
 			}	
 			cli_delete(spl[1], dir_root, block_size, &LD);
 		} else if (cmd.compare("exit") == 0) {
 			if (spl.size() != 1) {
-				cout << "error: wrong number of parameters given" << endl;
+				cout << "error: wrong number of arguments given" << endl;
 				continue;
 			}	
 			cli_exit(dir_root);
 		} else if (cmd.compare("dir") == 0) {
 			if (spl.size() != 1) {
-				cout << "error: wrong number of parameters given" << endl;
+				cout << "error: wrong number of arguments given" << endl;
 				continue;
 			}	
 			cli_dir(dir_root);
 		} else if (cmd.compare("prfiles") == 0) {
 			if (spl.size() != 1) {
-				cout << "error: wrong number of parameters given" << endl;
+				cout << "error: wrong number of arguments given" << endl;
 				continue;
 			}	
 			cli_prfiles(dir_root);
 		} else if (cmd.compare("prdisk") == 0) {
 			if (spl.size() != 1) {
-				cout << "error: wrong number of parameters given" << endl;
+				cout << "error: wrong number of arguments given" << endl;
 				continue;
 			}	
 			cli_prdisk(dir_root, &LD);
-		} else cout << "Invalid command entered" << endl;
+		} else cout << "invalid command entered" << endl;
 	}
 	
 	return 0;
