@@ -87,31 +87,8 @@ void addChild(Tree* parent, Tree* child) {
 	child->parent = parent;
 }
 
-//A function to traverse the tree using breadth first search tree traversal
-//displays the file data for each node visited
-void tree_bfs(Tree* start) {
-	if (start != NULL) {
-		Tree* temp = start; //tracks progress for each tree traversal
-		vector<Tree *> q;
-		
-		while (temp != NULL) { //loop until there are no more remaining nodes
-			temp->file->display(false);
-			
-			for (int i = 0; i < temp->children.size(); i++) {
-				q.push_back(temp->children[i]);
-			}
-			
-			if (q.size() == 0) {
-				temp = NULL;
-			} else { //sets the temp variable to the next tree in the queue
-				temp = q[0];
-				q.erase(q.begin());
-			}
-		}
-	}
-}
 
-//Return a vector of all items in the tree
+//Breadth first search of all of the items in the tree, returned as a vector of Tree pointers
 vector<Tree*> traverse(Tree* dir_root) {
 	Tree* current = dir_root;
 	vector<Tree*> queue;
@@ -166,20 +143,12 @@ Tree* deleteChild(Tree* parent, Tree* child) {
  * --------------------------------- */
 //merges blocks in the Ldisk
 void mergeLD(list<Block> *LD) {
-	list<Block>::iterator it = LD->begin();	
-	list<Block>::iterator next;
-
-	while (it != LD->end()) {	
-		next = it;
-		next++;
-		
-		if (next == LD->end()) return;
-		
-		if (it->free == next->free) {
-			//set the endpoint of the block to the endpoint of the next block
-			it->eid = next->eid;
-			LD->erase(next);
-		} else it++;
+	for (list<Block>::iterator it = LD->begin(); next(it,1) != LD->end(); it++) {
+		if (it->free == next(it,1)->free) {
+			it->eid = next(it,1)->eid;
+			LD->erase(next(it,1));
+			it--;
+		}
 	}
 }
 
@@ -270,6 +239,7 @@ void allocate(File *file, int block_size, list<Block> *LD) {
 
 		//If the disk is full
 		if (iter == LD->size()) {
+			cout << "Out of space" << endl;
 			file->size = file->bytes;
 			mergeLD(LD);
 			return;
@@ -399,12 +369,24 @@ void cli_delete(string name, Tree *dir_root, int block_size, list<Block> *LD) {
 	}
 }
 
+//Deallocates all Tree nodes and exits
 void cli_exit(Tree *dir_root) {
 	vector<Tree*> trv = traverse(dir_root);
 
 	for (vector<Tree*>::iterator it = trv.begin(); it != trv.end(); it++) {
 		delete (*it)->file;
 		delete (*it);
+	}
+
+	exit(0);
+}
+
+//Displays a list of all files using Breadth First Search
+void cli_dir(Tree *dir_root) {
+	vector<Tree*> trv = traverse(dir_root);
+
+	for (vector<Tree*>::iterator it = trv.begin(); it != trv.end(); it++) {
+		(*it)->file->display(false);
 	}
 }
 
@@ -625,7 +607,7 @@ int main(int argc, char **argv) {
 				cout << "error: wrong number of parameters given" << endl;
 				continue;
 			}	
-			tree_bfs(dir_root);
+			cli_dir(dir_root);
 		} else if (cmd.compare("prfiles") == 0) {
 			if (spl.size() != 1) {
 				cout << "error: wrong number of parameters given" << endl;
