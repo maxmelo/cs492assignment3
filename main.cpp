@@ -111,29 +111,41 @@ void tree_bfs(Tree* start) {
 	}
 }
 
+//Return a vector of all items in the tree
+vector<Tree*> traverse(Tree* dir_root) {
+	Tree* current = dir_root;
+	vector<Tree*> queue;
+	vector<Tree*> out;
+	
+	while (current != NULL) {		
+		for (int i = 0; i < current->children.size(); i++) queue.push_back(current->children[i]);
+		
+		out.push_back(current);
+		
+		if (queue.size() == 0) return out;
+		else {
+			current = queue[0];
+			queue.erase(queue.begin());
+		}
+	}
+
+	return out;
+}
+
+
 // method to find the specific file name we are looking for and retrieve the data for the node we want
 Tree* find(Tree *start, string filename) {
 	if (start == NULL) return NULL;
 
-	Tree* current = start;
-	vector<Tree *> q;
-	
-	while (current != NULL) { //loop until there are no more remaining nodes, add child node to the children queue
-		if (current->file->name == filename) break;
-		
-		for (int i = 0; i < current->children.size(); i++) {
-			q.push_back(current->children[i]);
-		}
-		
-		if (q.size() == 0) return current;
-		else { 
-			current = q[0];
-			q.erase(q.begin());
-		}
+	vector<Tree*> trv = traverse(start);
+
+	for (vector<Tree*>::iterator it = trv.begin(); it != trv.end(); it++) {
+		if ((*it)->file->name == filename) return (*it);
 	}
-	
-	return current;
+
+	return NULL;
 }
+
 
 //function to delete a child without children
 //removes child from the parent's vector
@@ -255,7 +267,7 @@ void allocate(File *file, int block_size, list<Block> *LD) {
 			}
 			iter++;
 		}
-		
+
 		//If the disk is full
 		if (iter == LD->size()) {
 			file->size = file->bytes;
@@ -287,26 +299,6 @@ void allocate(File *file, int block_size, list<Block> *LD) {
 	mergeLD(LD);
 }
 
-//Return a vector of all items in the tree
-vector<Tree*> traverse(Tree* dir_root) {
-	Tree* current = dir_root;
-	vector<Tree*> queue;
-	vector<Tree*> out;
-	
-	while (current != NULL) {		
-		for (int i = 0; i < current->children.size(); i++) queue.push_back(current->children[i]);
-		
-		out.push_back(current);
-		
-		if (queue.size() == 0) return out;
-		else {
-			current = queue[0];
-			queue.erase(queue.begin());
-		}
-	}
-
-	return out;
-}
 
 /* --------------------------------- *
  *  	COMMAND LINE FUNCTIONS		 *
